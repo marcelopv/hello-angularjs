@@ -9,6 +9,7 @@ var app = angular.module('hello-angularjs', [ ]);
     name: 'gem name',
     price: 2.95,
     description: '. . .',
-    canPurchase: false
+    canPurchase: true,
+    soldOut: false
   }
 })();

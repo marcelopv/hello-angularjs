@@ -8,6 +8,7 @@ var app = angular.module('hello-angularjs', [ ]);
   var gem = {
     name: 'gem name',
     price: 2.95,
-    description: '. . .'
+    description: '. . .',
+    canPurchase: false
   }
 })();

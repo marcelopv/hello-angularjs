@@ -1,0 +1,16 @@
+{
+  "name": "hello-angularjs",
+  "version": "1.0.0",
+  "description": "Practicing AngularJS framework guided by Shaping Up with AngularJS course of CodeSchool.",
+  "main": "angular.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelopv/hello-angularjs.git"
+  },
+  "author": "Marcelo Vargas",
+  "license": "ISC",
+  "homepage": "https://github.com/marcelopv/hello-angularjs#readme",
+  "devDependencies": {
+    "webpack": "^1.12.12"
+  }
+}

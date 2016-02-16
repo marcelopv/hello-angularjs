@@ -1,16 +1,9 @@
 <!DOCTYPE html>
-<html ng-app="hello-angularjs">
+<html>
   <head>
-    <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
-    <script type="text/javascript" src="angular.min.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <script src="bundle.js"></script>
   </head>
-  <body ng-controller="StoreController as store">
-    <div ng-repeat="product in store.products">
-      <h1> {{product.name}} </h1>
-      <h2> {{product.price}} </h2>
-      <p> {{product.description}} </p>
-      <button ng-show="store.product.canPurchase"> Add to Cart </button>
-    </div>
+  <body ng-app="hello-angularjs">
+    <h1> AngularJS </h1>
   </body>
 </html>

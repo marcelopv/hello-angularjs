@@ -11,6 +11,12 @@
   "license": "ISC",
   "homepage": "https://github.com/marcelopv/hello-angularjs#readme",
   "devDependencies": {
-    "webpack": "^1.12.12"
+    "angular": "^1.4.9",
+    "bootstrap": "^3.3.6",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "start": "node node_modules/.bin/webpack-dev-server"
   }
 }
